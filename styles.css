@@ -6,17 +6,34 @@ body{
     color:white;
 }
 
+
 .hero{
     justify-content: center;
     display:flex;
     padding-left:42px;
-    height: 380px; 
+    height: 500px; 
     background-color:#1F2937;
 }
+
+
 
 .upper{
     flex-wrap: wrap;
     width: 500px;
+}
+
+.upper a p{
+    font-size: 18px;
+    color:#E5E7EB;
+} 
+
+.upper h1{
+    font-size:48px;
+}
+
+.upper h2{
+    font-size:24px;
+    color:#F9FAF8;
 }
 
 .links{
@@ -45,12 +62,18 @@ ul{
     gap:50px;
 
 }
+
+.rand p{
+    margin:1px;
+}
+
 .small-box{
     height: 105px;
     width: 105px;
     border:1px solid black;
     border-radius: 5px;
     border-color: #3882F6;
+    border-width: 2px;
 }
 
 .subtxt{
@@ -74,9 +97,10 @@ align-self: center;
 }
 
 .quote-text{
+    align-self: center;
+    font-family: 'Quicksand', sans-serif;
     display: flex;
     width:500px;
-   
 }
 h6{
     display: flex;
@@ -96,7 +120,7 @@ h6{
     justify-content:space-around;
     height:80px;
     width: 800px;
-    border: 1px solid #3882F6;
+    border:1px solid #3882F6;
     border-radius: 5px;
    background-color:#3882F6;
 }
@@ -108,6 +132,8 @@ footer{
     align-items:center;
     background-color:#1F2937;
     height: 60px;
+    font-size: 18px;
+    color:#E5E7EB;
 }
 
 h1{
@@ -122,8 +148,36 @@ p{
 img{
     padding-left: 100px;
     padding-top: 21px;
-    height: 150px;
-    width:300px;
+    height: 160px;
+    width:375px;
+}
+
+button{
+    color:white;
+    background-color:#3882F6;
+    border-style: hidden;
+    display: block;
+    align-self: center;
+    height: 25px;
+    width:100px;
+    border-radius: 5px;
+}
+
+
+.action button {
+    color:white;
+    background-color:#3882F6;
+    border-style: groove;
+    border-color: white;
+}
+
+.action p{
+    font-size: 10px;
+}
+
+.quote h6{
+    padding: top 100px;
+    padding-right: 100px;
 }
 
 ol{
